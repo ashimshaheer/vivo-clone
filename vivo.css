@@ -1,0 +1,25 @@
+body{
+    
+    width: 100%;
+    max-height: none;
+}
+.second-image,.third-image{
+    margin-left: 5%;
+    border-radius: 4%;
+    margin-top: 5%;
+}
+@media screen and(max-width:768px) {
+   .image-first{
+     display: none;
+   }    
+  .image-responsive{
+      display: block;
+  }
+    
+}
+.footer{
+  background-color:#242933;
+}
+.card-text-div{
+  border-bottom: 2%;
+}
